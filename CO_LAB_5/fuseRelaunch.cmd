@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Xilinx/CO_LAB_5/shifter_gate_tb_isim_beh.exe" -prj "C:/Xilinx/CO_LAB_5/shifter_gate_tb_beh.prj" "work.shifter_gate_tb" "work.glbl" 

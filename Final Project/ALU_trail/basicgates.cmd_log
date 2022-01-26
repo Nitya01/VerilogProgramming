@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/ALU_trail/basicgates.xst" -ofn "C:/Xilinx/ALU_trail/basicgates.syr" 

@@ -1,0 +1,28 @@
+Command line:
+   FloatMultiplicationTb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55667
+
+Sat Mar 20 22:54:54 2021
+
+
+ Elaboration Time: 0.125 sec
+
+ Current Memory Usage: 5154.12 Meg
+
+ Total Signals          : 21
+ Total Nets             : 113
+ Total Signal Drivers   : 9
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 13
+ Total Traceable Variables  : 41
+ Total Scalar Nets and Variables : 528
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 4996.84 Meg
+
+Sat Mar 20 22:55:54 2021
+

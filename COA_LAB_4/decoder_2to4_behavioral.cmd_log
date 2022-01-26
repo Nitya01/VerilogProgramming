@@ -1,0 +1,25 @@
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 decoder_2to4_behavioral.ngc decoder_2to4_behavioral.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+par -w -intstyle ise -ol high -mt off decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ncd decoder_2to4_behavioral.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decoder_2to4_behavioral.twx decoder_2to4_behavioral.ncd -o decoder_2to4_behavioral.twr decoder_2to4_behavioral.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 decoder_2to4_behavioral.ngc decoder_2to4_behavioral.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+par -w -intstyle ise -ol high -mt off decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ncd decoder_2to4_behavioral.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml decoder_2to4_behavioral.twx decoder_2to4_behavioral.ncd -o decoder_2to4_behavioral.twr decoder_2to4_behavioral.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 decoder_2to4_behavioral.ngc decoder_2to4_behavioral.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+xst -intstyle ise -ifn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.xst" -ofn "C:/Xilinx/COA_LAB_4/decoder_2to4_behavioral.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx4-tqg144-3 decoder_2to4_behavioral.ngc decoder_2to4_behavioral.ngd  
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 
+map -intstyle ise -p xc6slx4-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o decoder_2to4_behavioral_map.ncd decoder_2to4_behavioral.ngd decoder_2to4_behavioral.pcf 

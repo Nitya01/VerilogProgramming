@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="COA_LAB_3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decode_2to4_dataflow.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decode_2to4_dataflow.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decode_2to4_dataflow.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decoder_dataflow_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decoder_dataflow_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_dataflow.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="fulladder_dataflow.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="fulladder_dataflow.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="fulladder_dataflow_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="fulladder_dataflow_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_4to1_conditional.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux_4to1_conditional.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="mux_4to1_conditional.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_4to1_conditional_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_4to1_conditional_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mux_4to1_dataflow.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="mux_4to1_dataflow.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="mux_4to1_dataflow.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="mux_4to1_dataflow.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="mux_4to1_dataflow.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="mux_4to1_dataflow.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="mux_4to1_dataflow.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="mux_4to1_dataflow.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="mux_4to1_dataflow.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="mux_4to1_dataflow.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_4to1_dataflow.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="mux_4to1_dataflow.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="mux_4to1_dataflow.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="mux_4to1_dataflow.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="mux_4to1_dataflow.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="mux_4to1_dataflow.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="mux_4to1_dataflow.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="mux_4to1_dataflow.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="mux_4to1_dataflow.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mux_4to1_dataflow_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="mux_4to1_dataflow_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux_4to1_dataflow_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="mux_4to1_dataflow_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="mux_4to1_dataflow_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="mux_4to1_dataflow_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_4to1_dataflow_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_4to1_dataflow_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="mux_4to1_dataflow_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="mux_4to1_dataflow_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_4to1_dataflow_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="mux_4to1_dataflow_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="mux_4to1_dataflow_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="mux_4to1_dataflow_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="mux_4to1_dataflow_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_conditional_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_conditional_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_dataflow_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="mux_dataflow_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="mux_dataflow_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="mux_dataflow_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1612695000" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="1321705353062746806" xil_pn:start_ts="1612695000">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612695079" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1612695079">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612772042" xil_pn:in_ck="-9208251183284770338" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1612772042">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="decode_2to4_dataflow.v"/>
+      <outfile xil_pn:name="decoder_dataflow_tb.v"/>
+      <outfile xil_pn:name="fulladder_dataflow.v"/>
+      <outfile xil_pn:name="fulladder_dataflow_tb.v"/>
+      <outfile xil_pn:name="mux_4to1_conditional.v"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.v"/>
+      <outfile xil_pn:name="mux_conditional_tb.v"/>
+      <outfile xil_pn:name="mux_dataflow_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612781789" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1145251571808960969" xil_pn:start_ts="1612781789">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612781789" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8832365308763954187" xil_pn:start_ts="1612781789">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612695087" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6009054432667902770" xil_pn:start_ts="1612695087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612772047" xil_pn:in_ck="-9208251183284770338" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1612772047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="decode_2to4_dataflow.v"/>
+      <outfile xil_pn:name="decoder_dataflow_tb.v"/>
+      <outfile xil_pn:name="fulladder_dataflow.v"/>
+      <outfile xil_pn:name="fulladder_dataflow_tb.v"/>
+      <outfile xil_pn:name="mux_4to1_conditional.v"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.v"/>
+      <outfile xil_pn:name="mux_conditional_tb.v"/>
+      <outfile xil_pn:name="mux_dataflow_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1612781792" xil_pn:in_ck="-9208251183284770338" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-6804909425542955539" xil_pn:start_ts="1612781789">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mux_dataflow_tb_beh.prj"/>
+      <outfile xil_pn:name="mux_dataflow_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1612781792" xil_pn:in_ck="4312263629669109206" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3442226012297599248" xil_pn:start_ts="1612781792">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="mux_dataflow_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8471760083869941369" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6009054432667902770" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-5691345807681944119" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353907947751920" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694625" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3186887794377905604" xil_pn:start_ts="1612694625">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612772036" xil_pn:in_ck="-7908478248093768041" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1375027791381735039" xil_pn:start_ts="1612772030">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.lso"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.ngc"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.ngr"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.prj"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.stx"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.syr"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.xst"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1612694638" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4978457252895834380" xil_pn:start_ts="1612694638">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1612706085" xil_pn:in_ck="2596431426752870200" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-6834690181362367181" xil_pn:start_ts="1612706081">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.bld"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.ngd"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1612706091" xil_pn:in_ck="2596431426752870201" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1612706085">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.pcf"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_map.map"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_map.mrp"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_map.ncd"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_map.ngm"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_map.xrpt"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_summary.xml"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1612706099" xil_pn:in_ck="-4860223468399772974" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="417176447551133118" xil_pn:start_ts="1612706091">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.ncd"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.pad"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.par"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.ptwx"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.unroutes"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.xpi"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_pad.csv"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_pad.txt"/>
+      <outfile xil_pn:name="mux_4to1_dataflow_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1612706099" xil_pn:in_ck="2596431426752870069" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1612706095">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.twr"/>
+      <outfile xil_pn:name="mux_4to1_dataflow.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

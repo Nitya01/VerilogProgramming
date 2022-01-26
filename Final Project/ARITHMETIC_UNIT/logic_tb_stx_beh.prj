@@ -1,0 +1,3 @@
+verilog isim_temp "logicunit32bit.v"
+verilog isim_temp "logic_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

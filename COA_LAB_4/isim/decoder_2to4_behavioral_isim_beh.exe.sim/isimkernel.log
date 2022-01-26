@@ -1,0 +1,28 @@
+Command line:
+   decoder_2to4_behavioral_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51924
+
+Tue Apr 06 23:28:37 2021
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 5154.78 Meg
+
+ Total Signals          : 14
+ Total Nets             : 19
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 103
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5154.78 Meg
+
+Tue Apr 06 23:28:44 2021
+

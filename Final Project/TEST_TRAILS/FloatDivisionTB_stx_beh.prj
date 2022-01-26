@@ -1,0 +1,5 @@
+verilog isim_temp "FloatingMultiplication.v"
+verilog isim_temp "FloatingAddition.v"
+verilog isim_temp "FloatingDivision.v"
+verilog isim_temp "FloatDivisionTB.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

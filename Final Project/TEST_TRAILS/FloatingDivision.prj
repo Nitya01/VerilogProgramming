@@ -1,0 +1,3 @@
+verilog work "FloatingMultiplication.v"
+verilog work "FloatingAddition.v"
+verilog work "FloatingDivision.v"

@@ -1,0 +1,28 @@
+Command line:
+   arith1_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57348
+
+Sun May 09 23:13:18 2021
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 5154.22 Meg
+
+ Total Signals          : 47
+ Total Nets             : 337
+ Total Signal Drivers   : 19
+ Total Blocks           : 10
+ Total Primitive Blocks : 8
+ Total Processes        : 22
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 517
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 4996.94 Meg
+
+Sun May 09 23:14:58 2021
+

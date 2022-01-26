@@ -1,0 +1,387 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: FloatingAddition.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FloatingAddition.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FloatingAddition"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : FloatingAddition
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Xilinx\TEST_TRAILS\FloatingAddition.v" into library work
+Parsing module <FloatingAddition>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <FloatingAddition>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FloatingAddition>.
+    Related source file is "C:\Xilinx\TEST_TRAILS\FloatingAddition.v".
+        XLEN = 32
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit subtractor for signal <diff_Exponent> created at line 56.
+    Found 25-bit subtractor for signal <GND_1_o_GND_1_o_sub_9_OUT> created at line 58.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_12_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_15_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_18_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_21_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_24_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_27_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_30_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_33_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_36_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_39_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_42_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_45_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_48_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_51_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_54_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_57_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_60_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_63_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_66_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_69_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_72_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_75_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_78_OUT> created at line 70.
+    Found 8-bit subtractor for signal <B[30]_GND_1_o_sub_81_OUT> created at line 70.
+    Found 25-bit adder for signal <n0231> created at line 58.
+    Found 8-bit adder for signal <B[30]_GND_1_o_add_10_OUT> created at line 63.
+    Found 24-bit shifter logical right for signal <B_Mantissa> created at line 30
+    Found 8-bit comparator lessequal for signal <n0000> created at line 46
+    Summary:
+	inferred  27 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+	inferred  57 Multiplexer(s).
+	inferred   1 Combinational logic shifter(s).
+Unit <FloatingAddition> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 27
+ 25-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 25
+# Comparators                                          : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 2
+ 24-bit 2-to-1 multiplexer                             : 28
+ 8-bit 2-to-1 multiplexer                              : 27
+# Logic shifters                                       : 1
+ 24-bit shifter logical right                          : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 27
+ 25-bit addsub                                         : 1
+ 8-bit adder                                           : 1
+ 8-bit subtractor                                      : 25
+# Comparators                                          : 1
+ 8-bit comparator lessequal                            : 1
+# Multiplexers                                         : 57
+ 1-bit 2-to-1 multiplexer                              : 2
+ 24-bit 2-to-1 multiplexer                             : 28
+ 8-bit 2-to-1 multiplexer                              : 27
+# Logic shifters                                       : 1
+ 24-bit shifter logical right                          : 1
+# Xors                                                 : 1
+ 1-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FloatingAddition> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FloatingAddition, actual ratio is 39.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FloatingAddition.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 678
+#      LUT2                        : 13
+#      LUT3                        : 54
+#      LUT4                        : 41
+#      LUT5                        : 132
+#      LUT6                        : 365
+#      MUXCY                       : 31
+#      MUXF7                       : 8
+#      VCC                         : 1
+#      XORCY                       : 33
+# IO Buffers                       : 96
+#      IBUF                        : 64
+#      OBUF                        : 32
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                  605  out of   2400    25%  
+    Number used as Logic:               605  out of   2400    25%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    605
+   Number with an unused Flip Flop:     605  out of    605   100%  
+   Number with an unused LUT:             0  out of    605     0%  
+   Number of fully used LUT-FF pairs:     0  out of    605     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                         100
+ Number of bonded IOBs:                  96  out of    102    94%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 42.948ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 143426219 / 32
+-------------------------------------------------------------------------
+Delay:               42.948ns (Levels of Logic = 33)
+  Source:            A<25> (PAD)
+  Destination:       result<28> (PAD)
+
+  Data Path: A<25> to result<28>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            17   1.222   1.392  A_25_IBUF (A_25_IBUF)
+     LUT6:I0->O            2   0.203   0.981  comp2 (comp1)
+     LUT6:I0->O            1   0.203   0.000  comp1_F (N90)
+     MUXF7:I0->O           1   0.131   0.684  comp1 (comp2)
+     LUT5:I3->O          106   0.203   2.238  comp21 (comp)
+     LUT5:I0->O           71   0.203   1.934  Msub_B[30]_GND_1_o_sub_12_OUT_cy<1>1 (Msub_B[30]_GND_1_o_sub_12_OUT_cy<1>)
+     LUT6:I2->O           10   0.203   1.085  Msub_B[30]_GND_1_o_sub_12_OUT_xor<3>11 (B[30]_GND_1_o_sub_12_OUT<3>)
+     LUT6:I3->O            5   0.205   1.059  Msub_B[30]_GND_1_o_sub_15_OUT_xor<5>11 (B[30]_GND_1_o_sub_15_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_18_OUT_xor<5>11 (B[30]_GND_1_o_sub_18_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_21_OUT_xor<5>11 (B[30]_GND_1_o_sub_21_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_24_OUT_xor<5>11 (B[30]_GND_1_o_sub_24_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_27_OUT_xor<5>11 (B[30]_GND_1_o_sub_27_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_30_OUT_xor<5>11 (B[30]_GND_1_o_sub_30_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_33_OUT_xor<5>11 (B[30]_GND_1_o_sub_33_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_36_OUT_xor<5>11 (B[30]_GND_1_o_sub_36_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_39_OUT_xor<5>11 (B[30]_GND_1_o_sub_39_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_42_OUT_xor<5>11 (B[30]_GND_1_o_sub_42_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_45_OUT_xor<5>11 (B[30]_GND_1_o_sub_45_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_48_OUT_xor<5>11 (B[30]_GND_1_o_sub_48_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_51_OUT_xor<5>11 (B[30]_GND_1_o_sub_51_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_54_OUT_xor<5>11 (B[30]_GND_1_o_sub_54_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_57_OUT_xor<5>11 (B[30]_GND_1_o_sub_57_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_60_OUT_xor<5>11 (B[30]_GND_1_o_sub_60_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_63_OUT_xor<5>11 (B[30]_GND_1_o_sub_63_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_66_OUT_xor<5>11 (B[30]_GND_1_o_sub_66_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_69_OUT_xor<5>11 (B[30]_GND_1_o_sub_69_OUT<5>)
+     LUT5:I0->O            3   0.203   1.015  Msub_B[30]_GND_1_o_sub_72_OUT_xor<5>11 (B[30]_GND_1_o_sub_72_OUT<5>)
+     LUT6:I0->O            5   0.203   1.059  Msub_B[30]_GND_1_o_sub_75_OUT_xor<5>11 (B[30]_GND_1_o_sub_75_OUT<5>)
+     LUT5:I0->O            2   0.203   0.845  Msub_B[30]_GND_1_o_sub_78_OUT_xor<5>11 (B[30]_GND_1_o_sub_78_OUT<5>)
+     LUT6:I3->O            1   0.205   0.808  Mmux_exp_adjust541 (Mmux_exp_adjust54)
+     LUT6:I3->O            1   0.205   0.580  Mmux_exp_adjust5415_SW0 (N80)
+     LUT6:I5->O            1   0.205   0.579  Mmux_exp_adjust5415 (result_28_OBUF)
+     OBUF:I->O                 2.571          result_28_OBUF (result<28>)
+    ----------------------------------------
+    Total                     42.948ns (10.022ns logic, 32.926ns route)
+                                       (23.3% logic, 76.7% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.88 secs
+ 
+--> 
+
+Total memory usage is 4502312 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

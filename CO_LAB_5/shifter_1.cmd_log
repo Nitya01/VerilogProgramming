@@ -1,0 +1,2 @@
+vhdtdtfi -lib work C:/Xilinx/CO_LAB_5/shifter_1.v -lang verilog -prj CO_LAB_5 -o shifter_1.spl -module shifter_1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 shifter_1.spl C:/Xilinx/CO_LAB_5/shifter_1.sym 

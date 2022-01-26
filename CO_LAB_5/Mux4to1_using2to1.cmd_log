@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Xilinx/CO_LAB_5/Mux4to1_using2to1.xst" -ofn "C:/Xilinx/CO_LAB_5/Mux4to1_using2to1.syr" 

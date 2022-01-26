@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Xilinx/ARITHMETIC_UNIT/arith1.xst" -ofn "C:/Xilinx/ARITHMETIC_UNIT/arith1.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ARITHMETIC_UNIT/arith1.xst" -ofn "C:/Xilinx/ARITHMETIC_UNIT/arith1.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ARITHMETIC_UNIT/arith1.xst" -ofn "C:/Xilinx/ARITHMETIC_UNIT/arith1.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/ARITHMETIC_UNIT/arith1.xst" -ofn "C:/Xilinx/ARITHMETIC_UNIT/arith1.syr" 

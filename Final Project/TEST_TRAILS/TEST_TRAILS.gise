@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="TEST_TRAILS.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatAdditionTB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FloatAdditionTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="FloatAdditionTB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatAdditionTB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FloatDivisionTB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatDivisionTB_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FloatMultiplicationTb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatMultiplicationTb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FloatingAddition.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FloatingAddition.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FloatingAddition.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FloatingAddition.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatingAddition.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FloatingAddition.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FloatingAddition.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FloatingAddition.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FloatingAddition_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FloatingAddition_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FloatingAddition_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FloatingDivision.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FloatingDivision.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FloatingDivision.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FloatingDivision.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FloatingDivision.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FloatingDivision.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FloatingDivision.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FloatingDivision.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FloatingDivision.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FloatingDivision.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FloatingDivision_envsettings.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FloatingDivision_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FloatingDivision_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="FloatingDivision_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FloatingDivision_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FloatingDivision_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FloatingDivision_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FloatingDivision_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1616258462" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1616258462">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261728" xil_pn:in_ck="8542594943431231062" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1616261728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FloatAdditionTB.v"/>
+      <outfile xil_pn:name="FloatDivisionTB.v"/>
+      <outfile xil_pn:name="FloatMultiplicationTb.v"/>
+      <outfile xil_pn:name="FloatingAddition.v"/>
+      <outfile xil_pn:name="FloatingDivision.v"/>
+      <outfile xil_pn:name="FloatingMultiplication.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261969" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="2845385746856601519" xil_pn:start_ts="1616261969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261969" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7264306209368146579" xil_pn:start_ts="1616261969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616258462" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="5610256186380423929" xil_pn:start_ts="1616258462">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261732" xil_pn:in_ck="8542594943431231062" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1616261732">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FloatAdditionTB.v"/>
+      <outfile xil_pn:name="FloatDivisionTB.v"/>
+      <outfile xil_pn:name="FloatMultiplicationTb.v"/>
+      <outfile xil_pn:name="FloatingAddition.v"/>
+      <outfile xil_pn:name="FloatingDivision.v"/>
+      <outfile xil_pn:name="FloatingMultiplication.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261971" xil_pn:in_ck="8542594943431231062" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5518574379171186909" xil_pn:start_ts="1616261969">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FloatAdditionTB_beh.prj"/>
+      <outfile xil_pn:name="FloatAdditionTB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1616261971" xil_pn:in_ck="-2410561123849417360" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3801838051156463360" xil_pn:start_ts="1616261971">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="FloatAdditionTB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1616253872" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1616253872">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616254050" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-8680650844523047762" xil_pn:start_ts="1616254050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616254050" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="5610256186380423929" xil_pn:start_ts="1616254050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616253872" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1616253872">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616254050" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8732363717937076400" xil_pn:start_ts="1616254050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616253872" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353907947751920" xil_pn:start_ts="1616253872">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616254050" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3612284644116504381" xil_pn:start_ts="1616254050">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616262092" xil_pn:in_ck="-9028334156506994841" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6403308385084305512" xil_pn:start_ts="1616262065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FloatingAddition.ngr"/>
+      <outfile xil_pn:name="FloatingDivision.lso"/>
+      <outfile xil_pn:name="FloatingDivision.ngc"/>
+      <outfile xil_pn:name="FloatingDivision.ngr"/>
+      <outfile xil_pn:name="FloatingDivision.prj"/>
+      <outfile xil_pn:name="FloatingDivision.stx"/>
+      <outfile xil_pn:name="FloatingDivision.syr"/>
+      <outfile xil_pn:name="FloatingDivision.xst"/>
+      <outfile xil_pn:name="FloatingDivision_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1616254661" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="7657692082549756251" xil_pn:start_ts="1616254661">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1616262101" xil_pn:in_ck="3127862668651464677" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="7072503573588018330" xil_pn:start_ts="1616262095">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FloatingDivision.bld"/>
+      <outfile xil_pn:name="FloatingDivision.ngd"/>
+      <outfile xil_pn:name="FloatingDivision_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1616262110" xil_pn:in_ck="617072950697276768" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="304711778406361947" xil_pn:start_ts="1616262101">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="FloatingDivision_map.map"/>
+      <outfile xil_pn:name="FloatingDivision_map.mrp"/>
+      <outfile xil_pn:name="FloatingDivision_map.ngm"/>
+      <outfile xil_pn:name="FloatingDivision_map.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>
