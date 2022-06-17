@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Xilinx/TEST_TRAILS/FloatAdditionTB_isim_beh.exe" -prj "C:/Xilinx/TEST_TRAILS/FloatAdditionTB_beh.prj" "work.FloatAdditionTB" "work.glbl" 
