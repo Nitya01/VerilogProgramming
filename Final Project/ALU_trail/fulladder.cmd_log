@@ -1,1 +1,0 @@
-xst -intstyle ise -ifn "C:/Xilinx/ALU_trail/fulladder.xst" -ofn "C:/Xilinx/ALU_trail/fulladder.syr" 
